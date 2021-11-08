@@ -12,12 +12,8 @@
 			document.getElementById('body').style.background = 'rgb('+r+','+g+','+b+')';
 			document.getElementById('txt').innerHTML = 'rgb('+r+','+g+','+b+')';
 			document.getElementById('btn').style.color = 'rgb('+r+','+g+','+b+')';
-			document.getElementById('btn').onmouseover = function(){
-				document.getElementById('btn').style.color = 'rgb('+r+','+g+','+b+')';
-			}
-			document.getElementById('btn').onmouseout = function(){
-				document.getElementById('btn').style.color = 'white';
-			}
+			document.getElementById('btn').onmouseover = function(){document.getElementById('btn').style.color = 'rgb('+r+','+g+','+b+')';}
+			document.getElementById('btn').onmouseout = function(){document.getElementById('btn').style.color = 'white';}
 			
 
 		}
